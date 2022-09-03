@@ -53,6 +53,7 @@ console.table(book.authors)
   and we want to know if this function is running fast or if we have a performance issue with it.
 */
 
+// You can ignore this function. It is just an example.
 function addNewBook(bookObject) {
   fetch('https://duckbooks/education.com/posts', {
   method: "POST",
@@ -64,6 +65,7 @@ function addNewBook(bookObject) {
 .catch(err => console.log(err))
 }
 
+// Here is how to calculate the execute time.
 console.time('Adding New Book')
 addNewBook(book)
 console.timeEnd('Adding New Book')
