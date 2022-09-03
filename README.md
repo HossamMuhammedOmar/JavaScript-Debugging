@@ -17,12 +17,26 @@ const book = {
 
 <div>
 
-### Console.log
+### CONSOLE.LOG
 
 ```javascript
 console.log(book.authors)
 
 ```
 <img width="300px" src="https://user-images.githubusercontent.com/49618856/188257121-cfd518f1-0432-4387-a565-3103fa6b6520.png"/>
+
+</div>
+
+<hr/>
+
+<div>
+
+### CONSOLE.TABLE
+
+```javascript
+console.table(book.authors)
+
+```
+<img src="https://user-images.githubusercontent.com/49618856/188257264-b41c5e55-dbbe-44bc-909b-3648bd575bd5.png"/>
 
 </div>
