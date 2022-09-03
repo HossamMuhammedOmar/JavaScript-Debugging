@@ -74,3 +74,37 @@ console.timeEnd('Adding New Book')
 <img width='400px' src="https://user-images.githubusercontent.com/49618856/188258075-7bec08b2-429c-482f-81e6-0f838b149ab6.png"/>
 
 </div>
+
+<hr/>
+
+<div>
+
+### CONSOLE.TRACE
+`It will show the call stack that exists at the point console.trace was called`
+```javascript
+
+function a() {
+  // DO something....
+  b()
+}
+
+function b() {
+  // DO something....
+  c()
+}
+
+function c() {
+  // DO something....
+  console.trace('trace test')
+}
+
+a()
+
+```
+<img src="https://user-images.githubusercontent.com/49618856/188258942-5ec61b71-b079-498b-8fc2-6e1a7b8cad78.png"/>
+
+><b>A useful Tutorial:</b> https://www.youtube.com/watch?v=QuO0UDkW2rk&t=278s
+
+
+</div>
+
