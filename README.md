@@ -1,5 +1,7 @@
 # JavaScript Debugging.... <img width="30px" src="https://user-images.githubusercontent.com/49618856/188256218-8953c787-cadb-415c-a9f6-24ebbbdd1f88.png">
 
+
+### Code Example
 ```javascript
 const book = {
   name: 'The Magic Duck: JavaScript',
@@ -107,4 +109,24 @@ a()
 
 
 </div>
+
+<hr/>
+
+<div>
+
+### debugger
+`When you invoke a debugger keyword, it will pause JavaScript execution before executing the following lines of code`
+```javascript
+function calc() {
+  let x = 10 * 50 + 15;
+  debugger;
+  let y = 10 -20 * 5; 
+}
+```
+<img src="https://user-images.githubusercontent.com/49618856/188259370-3078f080-1ef8-4e6d-a5e3-f1d2f08e3816.png"/>
+</div>
+
+<hr/>
+
+<img width="30px" src="https://user-images.githubusercontent.com/49618856/188259592-827202ab-11d0-42db-afc6-7ece555cb7ba.png"/> <img width="30px" src="https://user-images.githubusercontent.com/49618856/188259594-2bdd80a0-1c2d-4dcc-81e4-40df0e0af2f4.png"/> <img width="30px" src="https://user-images.githubusercontent.com/49618856/188259595-651029c6-fb50-4b4f-8f1a-4196644b6d07.png"/> <img width="30px" src="https://user-images.githubusercontent.com/49618856/188259596-bff0235a-b08e-4018-b80a-03d9b2f9e6f4.png"/> <img width="30px" src="https://user-images.githubusercontent.com/49618856/188259597-8068dba8-2d21-4d5e-bbb7-5bf5cf768ee6.png"/>
 
